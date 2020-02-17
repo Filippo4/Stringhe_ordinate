@@ -1,0 +1,18 @@
+﻿<Window x:Class="Stringhe_ordinate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stringhe_ordinate"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_add" Content="Aggiungi" HorizontalAlignment="Left" Margin="380,103,0,0" VerticalAlignment="Top" Height="32" Width="87" FontSize="18" Click="btn_add_Click"/>
+        <Button x:Name="btn_ordina" Content="Ordina" HorizontalAlignment="Left" Margin="519,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.253,2.018" Width="84" Height="32" FontSize="18" Click="btn_ordina_Click"/>
+        <Button x:Name="btn_stampa" Content="Stampa" HorizontalAlignment="Left" Margin="380,160,0,0" VerticalAlignment="Top" Height="30" Width="87" FontSize="18" IsEnabled="False" Click="btn_stampa_Click"/>
+        <Button x:Name="btn_public_" Content="Pubblica" HorizontalAlignment="Left" Margin="519,160,0,0" VerticalAlignment="Top" Height="30" Width="84" FontSize="18" IsEnabled="False"/>
+        <Label x:Name="lbl_lista" Content="" HorizontalAlignment="Left" Margin="46,190,0,0" VerticalAlignment="Top" Width="278" Height="194" FontSize="18"/>
+        <TextBox x:Name="txt_nome" HorizontalAlignment="Left" Margin="46,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="215" Height="34" FontSize="18"/>
+
+    </Grid>
+</Window>
